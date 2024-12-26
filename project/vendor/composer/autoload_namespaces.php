@@ -6,4 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Mailjet' => array($vendorDir . '/mailjet/mailjet-apiv3-php/src'),
+    'Laracasts\\Flash' => array($vendorDir . '/laracasts/flash/src'),
 );
